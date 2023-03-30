@@ -1,0 +1,60 @@
+body {
+    background-image: url("./assets/1.png");
+    background-repeat: no-repeat;
+    background-size: initial;
+    color: black;
+    font-size: large;
+    font-family: Arial Rounded MT Bold, Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 1em 0;
+}
+
+h1, h2, h3 {
+    margin: 0.3em 0;
+}
+
+button {
+    background-color: lightpink;
+    color: white;
+    border: none;
+    border-radius: 5em;
+    width: 10em;
+    height: 3em;
+    margin-top: 1em;
+}
+
+#body-page {
+    display: flex;
+    justify-content: center;
+}
+
+.eggs {
+    top: -10em;
+    width: 2em;
+    height: 2em;
+    position: absolute;
+}
+
+#modal {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.719);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+#modal img {
+    width: 55%;
+    height: 100%;
+}
