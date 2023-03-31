@@ -14,6 +14,7 @@ header {
     justify-content: center;
     width: 100%;
     margin: 1em 0;
+    text-align: center;
 }
 
 h1, h2, h3 {
@@ -57,4 +58,28 @@ button {
 #modal img {
     width: 55%;
     height: 100%;
+}
+
+@media screen and (max-width : 520px) {
+    h1 {
+        font-size: 1.8em;
+    }
+
+    h2, h3 {
+        font-size: 1em;
+    }
+
+    h1, h2, h3 {
+        margin: 0.1em 0;
+    }    
+
+    body {
+        background-image: url("./assets/jardin.png");
+        background-size: 130%;
+    }
+
+    .eggs {
+        width: 1em;
+        height: 1em;
+    }
 }
